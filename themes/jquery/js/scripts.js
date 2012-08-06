@@ -1,12 +1,4 @@
-
-/*******************************************************************************/
-/*	Subscriptions */
-/*******************************************************************************/
-
-//
-// Executes on DOM ready
-//
-App.subscribe("init", function(){
+$(function() {
 
 var tooltip_timeout;
 var $search = $('#search');
@@ -23,8 +15,6 @@ var $search = $('#search');
 				el.css({"margin-bottom":0,"padding-bottom":"25px","height":el.height("auto").height()});
 			}
 		});
-    //		commented 12/29/11 unclear as to purpose
-//		$("#container #body").css({"overflow":"visible"});
 	});
 
 	//
